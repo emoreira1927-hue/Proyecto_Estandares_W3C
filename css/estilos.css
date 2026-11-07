@@ -194,3 +194,18 @@ h2 {
     }
 
 }
+
+/* Enlace para saltar al contenido principal */
+.salto-contenido {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    padding: 0.7rem;
+    background-color: #ffffff;
+    color: #193b5a;
+    z-index: 10;
+}
+
+.salto-contenido:focus {
+    top: 1rem;
+}
