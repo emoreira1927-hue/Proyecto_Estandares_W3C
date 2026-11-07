@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto | Punto Universitario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <p class="marca">Punto Universitario</p>
+
+            <nav aria-label="Navegación principal">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="portada">
+            <h1>Contáctanos</h1>
+
+            <p>
+                ¿Tienes alguna pregunta o sugerencia? Puedes escribirnos
+                utilizando el siguiente formulario.
+            </p>
+        </section>
+
+        <section class="contenido">
+            <h2>Formulario de contacto</h2>
+
+            <form id="formulario-contacto" action="#" method="get">
+
+                <div class="grupo-campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre"
+                           autocomplete="name" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo"
+                           autocomplete="email" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"
+                              rows="5" required></textarea>
+                </div>
+
+                <button class="boton" type="submit">
+                    Enviar consulta
+                </button>
+
+                <p id="resultado-formulario" class="mensaje"
+                   role="status" aria-live="polite"></p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>Proyecto académico de Desarrollo Basado en Plataformas.</p>
+            <p>Punto Universitario - 2026</p>
+        </div>
+    </footer>
+</body>
+
+</html>
