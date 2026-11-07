@@ -21,6 +21,21 @@ Su objetivo es compartir información y recomendaciones generales para estudiant
 - CSS
 - JavaScript
 
+## Accesibilidad
+
+Durante la revisión del sitio se realizaron algunas mejoras:
+
+- Se agregó un enlace para saltar directamente al contenido principal.
+- Se mejoró la navegación mediante teclado.
+- Se agregó un indicador visible al seleccionar enlaces, botones y campos.
+- Se utilizaron etiquetas para identificar los campos del formulario.
+- Se incorporaron atributos ARIA en los elementos interactivos.
+
+## Enlaces del proyecto
+
+- Repositorio: https://github.com/emoreira1927-hue/Proyecto_Estandares_W3C
+- Sitio web: https://emoreira1927-hue.github.io/Proyecto_Estandares_W3C/
+
 ## Información del proyecto
 
 Este sitio fue elaborado con fines académicos. El formulario de contacto es una demostración y no envía información a un servidor.
