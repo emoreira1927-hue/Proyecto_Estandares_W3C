@@ -39,3 +39,12 @@ Durante la revisión del sitio se realizaron algunas mejoras:
 ## Información del proyecto
 
 Este sitio fue elaborado con fines académicos. El formulario de contacto es una demostración y no envía información a un servidor.
+## Herramientas de revisión
+
+Para revisar el sitio se utilizaron las siguientes herramientas:
+
+- Nu HTML Checker: validación del código HTML.
+- W3C CSS Validator: revisión de los estilos CSS.
+- WAVE: evaluación de accesibilidad.
+- Lighthouse: evaluación de accesibilidad y calidad del sitio.
+- NVDA: pruebas con lector de pantalla.
